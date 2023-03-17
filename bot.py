@@ -22,9 +22,9 @@ async def autoapprove(c, m):
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
         button = [[
-            InlineKeyboardButton('🎬JOIN MOVIE CHANNEL🎬', url='https://t.me/CKTalkies')
+            InlineKeyboardButton('🎬JOIN MOVIE CHANNEL🎬', url='https://t.me/movies_channel001')
             ],[
-            InlineKeyboardButton('📽️JOIN MOVIE GROUP📽️', url='https://t.me/at3movies')
+            InlineKeyboardButton('📽️JOIN MOVIE GROUP📽️', url='https://t.me/MH_moviesgroup01')
         ]]
         markup = InlineKeyboardMarkup(button)
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
@@ -48,9 +48,9 @@ async def start(c, m):
 I'm an auto approve Admin Join Requests Bot.
 I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.'''
     button = [[
-            InlineKeyboardButton('💎JOIN GROUP✅️', url='https://t.me/at3movies')
+            InlineKeyboardButton('💎JOIN GROUP✅️', url='https://t.me/MH_moviesgroup01')
             ],[
-            InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/MLZ_BOTZ')
+            InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/movies_channel001')
     ]]
     await m.reply_photo(
         photo='https://telegra.ph/file/f7738f04ea74e16c9db02.jpg', 
